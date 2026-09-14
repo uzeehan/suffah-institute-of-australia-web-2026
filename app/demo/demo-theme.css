@@ -415,16 +415,6 @@ body {
 
 
 /* STYLE 2026 */
-header.header {
-  /* background-color: #085251 !important; */
-  /* z-index: 1000; */
-}
-
-footer.footer {
-  background-color: #085251 !important;
-  padding: 2rem 0;
-  z-index: 1000;
-}
 
 .demo-layout {
   display: flex;
@@ -455,10 +445,6 @@ nav.nav-container ul>li>a:hover {
 /* GENERIC STYLE */
 main.main-container .wrapper>h2 {
   text-align: center;
-}
-
-.header-container {
-  /* background: #FBFBFD; */
 }
 
 /* HEADER */
@@ -700,6 +686,26 @@ section.banner-container h2 {
   justify-content: space-between;
 }
 
+footer.footer.footer-bg {
+  padding: 3.5rem 0 1rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/images/banner-deep-light-brown.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+footer.footer>.container {
+  z-index: 1;
+  position: relative;
+
+}
+
+
+
 /* SERVICES */
 .service-content {
   display: flex;
@@ -775,14 +781,12 @@ section.banner-container h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* align-content: flex-start; */
 }
 
 @media (min-width: 768px) {
   .team-members-container .card-team-member {
     width: calc(50% - 0.5rem);
     margin-bottom: 1rem;
-    /* margin-right: 0.5rem; */
     align-items: self-start;
   }
 }
