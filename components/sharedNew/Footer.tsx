@@ -5,7 +5,7 @@ import { ImFacebook, ImLinkedin2 } from "react-icons/im";
 const Footer = () => {
   return (
     <footer className="footer footer-bg text-white dark:text-green-200 py-8">
-      <Image src="/assets/images/banner-3.jpg" alt="Secondary Background" className="w-full h-auto" />
+      <Image src="/assets/images/banner-deep-light-brown.png" alt="Secondary Background" className="w-full h-auto" />
       <div className="container mx-auto px-4">
         <div className="footer-wrapper">
           <div className="footer-logo">
